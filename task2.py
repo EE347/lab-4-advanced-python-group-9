@@ -9,9 +9,11 @@ class RandomNumberGenerator():
         self.upper_bound = upper_bound
         
     def random_int(self):
+        return random.randint(self.lower_bound,self.upper_bound)
         # Your code goes here
     
     def random_float(self):
+        return random.random()*self.random_int()
         # Your code goes here
     
     
