@@ -1,4 +1,4 @@
 name = input("Enter Name: ")
-file = open("task3.txt","w")
-file.writelines(name)
+file = open("task3.txt","a")
+file.write(name + "\n")
 file.close()
